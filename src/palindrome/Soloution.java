@@ -21,7 +21,6 @@ palindrome 123 true if 321 works
     	  System.out.println(temp[h]);
       }
 
-       
         return false;
             
       
