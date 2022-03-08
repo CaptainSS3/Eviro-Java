@@ -6,24 +6,30 @@ palindrome 123 true if 321 works
 *///
     public boolean isPalindrome(int x) {
     	Integer xs = x;
+    	System.out.println(x);
       String xword = xs.toString();
+      System.out.println(xword);
       int l = xword.length();
+      System.out.println(l);
       String flippedword = "" ;
       char[] temp = new char[20]; //i think you can also put l in here but not sure lets work with 0 for now
-      for(int i = 0 ; i > l ; i++){
+      for(int i = 0 ; i < l ; i++){
     	  temp[i] = xword.charAt(i);
       }
-       for(int j = 0 ; j > l ; j++){ //just to  test and see if it actually works
-         System.out.println("           number: ");
-         System.out.println("" + temp[j]);
-       }
-        for(int k = l ; 0 > k ; k--){
-            flippedword = flippedword + temp[k];
-            
-        
-        }
-        boolean check = flippedword.equals(xword);
-        return check;
+      System.out.println("its put in the list");
+      for(int h = l ; h < 0 ; h--){
+    	  System.out.println(temp[h]);
+      }
+      
+      /*
+       * ending session 
+       * i just need to check to the char[] s together
+       * 
+       */
+      
+      
+       
+        return false;
             
       
         
