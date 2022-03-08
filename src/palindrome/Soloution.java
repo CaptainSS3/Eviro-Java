@@ -22,7 +22,8 @@ palindrome 123 true if 321 works
             
         
         }
-        return false;
+        boolean check = flippedword.equals(xword);
+        return check;
             
       
         
