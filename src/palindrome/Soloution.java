@@ -21,7 +21,7 @@ palindrome 123 true if 321 works
     	  System.out.println(temp[h]);
       }
       
-      /*da
+      /*
        * ending session 
        * i just need to check to the char[] s together
        * 
