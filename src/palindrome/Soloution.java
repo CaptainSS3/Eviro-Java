@@ -3,7 +3,7 @@ package palindrome;
 public class Soloution {
   /*
 palindrome 123 true if 321 works
-*/
+*///sdw
     public boolean isPalindrome(int x) {
     	Integer xs = x;
       String xword = xs.toString();
